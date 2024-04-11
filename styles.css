@@ -56,16 +56,7 @@ main {
 }
 
 .location {
-    margin-top: 4px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 150%;
 
-    text-align: center;
-
-    color: var(--neon-green);
 }
 
 .bio {
