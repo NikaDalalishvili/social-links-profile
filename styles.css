@@ -85,7 +85,7 @@ main {
     
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 16px;
 }
 
 .social-links a {
@@ -110,6 +110,40 @@ main {
     background-color: var(--neon-green);
     color: var(--grey);
 }
+
+footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.attribution {
+    padding: 10px 12px;
+
+    border-radius: 0 10px 10px 0;
+    background-color: var(--gray);
+
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+
+}
+
+.attribution a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    color: var(--neon-green); 
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+}
+
+.attribution a:hover {
+    opacity: 1;
+}
+
 
 @media only screen and (max-width: 375px) {
     .social-links-profile-card {
